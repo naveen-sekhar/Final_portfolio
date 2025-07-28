@@ -120,7 +120,7 @@ const HomePage = () => {
         </div>
 
         {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <div className="absolute bottom-0.5 left-1/2 transform -translate-x-1/2 animate-bounce">
           <div className="flex flex-col items-center space-y-2">
             <span className="text-sm text-slate-500 dark:text-slate-400 font-medium">Explore</span>
             <ChevronDown className="w-5 h-5 text-slate-400 dark:text-slate-500" />
