@@ -169,7 +169,7 @@ const Projects = () => {
             <div className="relative bg-slate-900 px-8 py-4 rounded-lg border border-slate-700">
               <p className="text-gray-300 mb-4">Interested in seeing more of my work?</p>
               <a
-                href="https://github.com/alexjohnson"
+                href="https://github.com/naveen-sekhar"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-400 hover:to-blue-400 text-white rounded-lg font-medium transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25"

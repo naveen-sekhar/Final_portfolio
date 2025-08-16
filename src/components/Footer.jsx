@@ -43,7 +43,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="https://github.com/alexjohnson" 
+                href="https://github.com/naveen-sekhar" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-2 bg-white dark:bg-slate-800 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1"
@@ -51,7 +51,7 @@ const Footer = () => {
                 <Github className="w-5 h-5 text-slate-600 dark:text-slate-400" />
               </a>
               <a 
-                href="https://linkedin.com/in/alexjohnson" 
+                href="https://www.linkedin.com/in/naveensekhar6/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-2 bg-white dark:bg-slate-800 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1"

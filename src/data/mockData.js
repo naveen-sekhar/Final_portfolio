@@ -7,7 +7,7 @@ export const personalInfo = {
   phone: "+1 (555) 123-4567",
   location: "Chennai, India",
   github: "https://github.com/naveen-sekhar",
-  linkedin: "https://linkedin.com/in/naveensekhar6",
+  linkedin: "https://www.linkedin.com/in/naveensekhar6/",
   website: ""
 };
 
@@ -42,9 +42,33 @@ export const aboutData = {
       "Docker", "Kubernetes", "AWS Security", "Splunk"
     ],
     certifications: [
-      "CompTIA Security+ (In Progress)",
-      "CEH - Certified Ethical Hacker (Planned 2025)",
-      "CISSP Associate (Planned 2026)"
+      {
+        id: 1,
+        name: "Wifi Pentesting",
+        issuer: "Cappricosec University",
+        status: "Completed",
+        year: "2025",
+        description: "Industry-leading cybersecurity certification covering security fundamentals",
+        certificateFile: "/certificates/naveen-Wifi-Hacker-course-Certificate.pdf"
+      },
+      {
+        id: 2,
+        name: "Introduction to Cybersecurity",
+        issuer: "Cisco",
+        status: "In Progress",
+        year: "2025",
+        description: "Professional certification in ethical hacking and penetration testing",
+        certificateFile: "/certificates/"
+      },
+      {
+        id: 3,
+        name: "Ethical Hacker",
+        issuer: "Cisco",
+        status: "In Progress",
+        year: "2025",
+        description: "Certified Information Systems Security Professional Associate level",
+        certificateFile: "/certificates/cissp-certificate.pdf"
+      }
     ]
   }
 };
@@ -123,10 +147,10 @@ export const projectsData = [
 export const experienceData = [
   {
     id: 1,
-    title: "Cybersecurity Intern",
-    company: "TechSecure Solutions",
-    location: "San Francisco, CA",
-    duration: "June 2024 - August 2024",
+    title: "Junior Vulnerability Analyst",
+    company: "Kauvery Hospital",
+    location: "Tiruchirappalli, Chennai",
+    duration: "May 2025 - June 2025",
     type: "Internship",
     description: "Worked on penetration testing and vulnerability assessment projects for enterprise clients.",
     achievements: [
@@ -135,39 +159,7 @@ export const experienceData = [
       "Developed automated testing scripts that reduced assessment time by 40%",
       "Presented findings to C-level executives"
     ],
-    technologies: ["Kali Linux", "Metasploit", "Burp Suite", "Nessus", "Python"]
-  },
-  {
-    id: 2,
-    title: "Research Assistant - IoT Security Lab",
-    company: "UC Berkeley",
-    location: "Berkeley, CA",
-    duration: "September 2023 - Present",
-    type: "Research",
-    description: "Conducting research on IoT device security and developing novel attack detection methods.",
-    achievements: [
-      "Co-authored 2 research papers on IoT security",
-      "Developed new firmware analysis techniques",
-      "Led a team of 5 undergraduate researchers",
-      "Presented research at IEEE Security Conference"
-    ],
-    technologies: ["Python", "C", "ARM Assembly", "Ghidra", "IDA Pro"]
-  },
-  {
-    id: 3,
-    title: "IT Security Volunteer",
-    company: "Local Non-Profit Organization",
-    location: "Berkeley, CA",
-    duration: "January 2023 - Present",
-    type: "Volunteer",
-    description: "Providing cybersecurity consulting and training for local non-profit organizations.",
-    achievements: [
-      "Improved security posture for 10+ organizations",
-      "Conducted cybersecurity awareness training",
-      "Implemented secure backup and recovery systems",
-      "Developed security policies and procedures"
-    ],
-    technologies: ["Microsoft 365", "Google Workspace", "Antivirus Solutions", "Backup Systems"]
+    technologies: ["Kali Linux","Bash","Syft","Grype","Docker"]
   }
 ];
 
@@ -254,8 +246,8 @@ export const contactData = {
   location: "Chennai, India",
   availability: "Available for internships and entry-level positions",
   socialLinks: {
-    github: "https://github.com/alexjohnson",
-    linkedin: "https://linkedin.com/in/alexjohnson",
+  github: "https://github.com/naveen-sekhar",
+  linkedin: "https://www.linkedin.com/in/naveensekhar6/",
     twitter: "https://twitter.com/alexjohnson_sec",
     personal_website: "https://alexjohnson.dev"
   }

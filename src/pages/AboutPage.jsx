@@ -1,13 +1,13 @@
 import React from 'react';
 import { aboutData } from '../data/mockData';
 import { GraduationCap, Award, Code, Shield, BookOpen, User, Calendar, MapPin } from 'lucide-react';
+import Certifications from '../components/Certifications';
 
 const AboutPage = () => {
   const skillCategories = [
     { name: 'Technical Skills', icon: Shield, skills: aboutData.skills.technical },
     { name: 'Programming', icon: Code, skills: aboutData.skills.programming },
-    { name: 'Tools & Technologies', icon: BookOpen, skills: aboutData.skills.tools },
-    { name: 'Certifications', icon: Award, skills: aboutData.skills.certifications }
+    { name: 'Tools & Technologies', icon: BookOpen, skills: aboutData.skills.tools }
   ];
 
   return (
@@ -111,7 +111,7 @@ const AboutPage = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             {skillCategories.map((category) => {
               const IconComponent = category.icon;
               return (
@@ -138,6 +138,9 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
+
+      {/* Certifications Section */}
+      <Certifications />
 
       {/* Stats Section */}
       <section className="py-16 bg-slate-50 dark:bg-slate-800">
